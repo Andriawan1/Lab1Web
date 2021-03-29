@@ -116,8 +116,23 @@ html dasar dan dengan isi bebas, boleh mengcopy dari halaman sebelumnya.
 Jawab Pertanyaan Berikut
 1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah
 error ketika terjadi kesalahan penulisan tag?
+Jawab:
+ada, jika kita lupa maupun tidak sengaja mengetik titik, koma maupun huruf yang tidak bisa terdeteksi oleh pemrograman. bahkan jika kita tidak menuliskan simbol
 2. Apa perbedaan dari tag <p> dengan tag <br>, berikan penjelasannya!
+jawab:
+-Tag P,
+ Tag ini berfungsi untuk memberi perintah paragraf baru pada halaman html, antara baris atau paragraf terbentuk jarak.
+ Tag ini merupakan tag yang berpasangan, dimulai dengan tag pembuka <p> dan diakhiri dengan tag penutup</p> . 
+-Tag Br
+ tag ini adalah tag tunggal tanpa diawali tag pembuka dan diakhiri tag penutup. Ia berdiri sendiri.
+ Tag <br/>  dituliskan pada kerangka html untuk memberikan perintah "break line", artinya meng intruksikan baris baru.
+Jadi perbedaan yang mencolok dari kedua tag ini adalah pada jarak yang terbentuk.
+Kesimpulannya jika hanya ingin membuat baris baru tanpa jarak gunakan tag <br/> , tapi jika ingin membuat baris baru namun memiliki jarak dengan paragraf diatasnya maka bungkuslah paragraf baru tersebut dengan sepasang tag <p>  dan </p>.
+ 
 3. Apa perbedaan atribut title dan alt pada tag <img>, berikan penjelasannya!
+jawab:
+-Title image adalah atribut lain yang dapat ditambahkan ke tag gambar dalam HTML. Title image ini digunakan untuk memberikan judul untuk gambar Anda. Text yang Anda masukkan di dalam tag judul tidak akan ditampilkan kepada pengguna ketika gambar tidak dapat ditampilkan. Sebaliknya, tag judul gambar ini ditampilkan saat Anda menyorot gambar dengan mouse.
+-Alt text atau text alternatif adalah atribut yang ditambahkan ke tag gambar dalam HTML. Teks ini muncul di dalam wadah gambar ketika gambar tidak dapat ditampilkan. Ini membantu mesin pencari memahami apa isi dari gambar tersebut. Text alternatif juga sangat membantu dalam kasus gambar yang tidak ditemukan pada halaman atau gambar rusak.
 4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar
 proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
 5. Pada link tambahkan atribut target dengan nilai atribut bervariasi ( _blank, _self, _top,
